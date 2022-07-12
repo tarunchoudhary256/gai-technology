@@ -1,0 +1,83 @@
+<!doctype html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Gmail</title>
+		<link rel="stylesheet" type="text/css" href="gmail.css">
+	</head>
+	<script type="text/javascript">
+		function validateform() {
+		let x = document.forms["myform"]["email"].value;
+		if (x=="") {
+			document.getElementById("message").innerHTML=("&#9888 Enter an email or phone number");
+			return false;
+		}	// body...
+		}
+	</script>
+  	<body>
+        <form name="myform" onsubmit="return validateform()" method="post">
+		<section class="main-section">
+		
+		
+			<div id="header">
+				<header>
+					<img src="/home/tarun/Downloads/google-img.jpg" >
+				</header>
+			</div>
+
+			<div>
+				<p class="heading">Sign in</p>
+			</div>
+
+			<div>
+				<p class="para">to continue to gmail</p>
+			</div>
+
+			<div class="field1">
+				<input type="email" name="email" placeholder="Email or Phone">
+			</div>
+            <span id="message"></span>
+			<div class="field2">
+				<a href="#">Forget email?</a>
+			</div>
+
+			<div class="field3">
+				Not your computer? Use Guest mode to sign in privately.
+			</div>
+
+			<div class="field4">
+				<a href="#">Learn more</a>
+			</div>
+
+			<div class="account">
+				<div class="dropdown">
+				  <button class="dropbtn">Create account</button>
+				  <div class="dropdown-content">
+						  <a href="/home/tarun/sublime/signup.html">For myself</a>
+						  <a href="#">For my child</a>
+						  <a href="#">To manage my bussiness</a>
+				  </div>
+				  
+				</div>
+				<span><button class="next">Next</button></span>
+
+			</div>
+
+		</section>
+
+		<footer>
+			<ul class="lastfield1">
+				<li><a href="#">English(United states)</a></li>
+			</ul>
+
+					<ul class="lastfield2">
+					<li class="lastline"><a href="#">Help</a></li>
+					<li class="lastline"><a href="#">Privacy</a></li>
+					<li class="lastline"><a href="#">Term</a></li>
+			</ul>
+		</footer>
+	</form>
+	</body>
+	</html>

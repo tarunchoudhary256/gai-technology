@@ -1,0 +1,210 @@
+.main-section{
+	border: solid #dadce0 1px;
+	height: 450px;
+	width: 600px;
+	margin: auto;
+	margin-top: 70px;
+	border-radius: 10px;
+	padding: auto;
+	padding-top: 30px;
+	display: flex;
+}
+
+img{
+	height: 44px; 
+	width: 70px;
+	margin-left: 26px;
+}
+
+.heading{
+	margin-top: -5px;
+	margin-left: 26px;
+	font-size: 20px;
+	font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+	color: #202124;
+	font-weight: 400px;
+}
+
+.para{
+	margin-top: -5px;
+	margin-left: 26px;
+	font-size: 14px;
+	font-weight: 400px;
+	letter-spacing: 0.1px;
+	color: #202124;
+}
+
+.left-portion{
+	width: 60%;
+}
+
+.right-portion{
+	width: 40%;
+	
+}
+
+.right-portion img{
+	width: 200px;
+	height: 200px;
+	margin-top: 80px;
+}
+
+.first-field{
+	display: flex;
+	margin-top: 30px;
+	margin-left: 26px;
+}
+
+.field1{
+	height: 24px;
+	width: 130px;
+	border-radius: 4px 4px;
+	border: 1px solid #dadce0;
+}
+
+.field2{
+	height: 24px;
+	width: 130px;
+	margin-left: 10px;
+	border-radius: 4px 4px;
+	border: 1px solid #dadce0;
+}
+
+.second-field{
+	margin-left: 26px;
+	position: relative;
+}
+
+.second-field input{
+	height: 24px;
+	width: 276px;
+	border-radius: 4px 4px;
+	border: 1px solid #dadce0;
+	margin-top: 20px;
+}
+
+.text1{
+	margin: 28px;
+	font-size: 11px;
+	margin-top: 2px;
+	color: #757575;
+}
+
+.third-field{
+	margin-left: 26px;
+}
+
+.fourth-field{
+	margin-left: 26px;
+	margin-top: -10px;
+}
+.fourth-field label{
+	color: #202124;
+	font: 14px roboto;
+}
+
+.fifth-field{
+	margin-top: 30px;
+}
+.fifth-field a{
+	text-decoration: none;
+	color: #1a73e8;
+	margin-left: 26px;
+}
+
+button{
+	margin-left: 130px;
+	background-color: #1a73e8;
+	height: 35px;
+	width: 66px;
+	border: 1px solid #1a73e8;
+	border-radius: 4px 4px;
+	color: white;
+}
+
+.right-text{
+	text-align: center;
+	font: 12px roboto;
+    font-weight: 300;
+    color: #202124;
+    display: block;
+}
+
+.foot{
+
+	height: 20px;
+	width: 700px;
+	margin: auto;
+	border-radius: 10px;
+	margin-top: 5px;
+	
+	display: flex;
+}
+
+
+.lastfield2{
+	display: flex;
+	list-style: none;
+	margin: auto;
+	margin-top: 0px;
+	margin-right: 55px;
+}
+.lastfield1 a{
+	text-decoration: none;
+	color: #757575;
+}
+
+
+.lastline{
+	padding-left: 15px;
+	color: #757575;
+}
+.lastline a{
+	color: #757575;
+	text-decoration: none;
+}
+
+.second-field label{
+	position: absolute;
+	top: 26px;
+	font-size: 14px;
+	right: 60px;
+}
+
+#name_error{
+	font-size:10px;
+	margin-left:26px;
+	color: red;
+	visibility: hidden;
+}
+
+#email_error{
+		font-size:10px;
+		margin-left:26px;
+		color: red;
+		visibility: hidden;
+}
+
+#password_error{
+		font-size:10px;
+		margin-left:26px;
+	 	color: red;
+	 	visibility: hidden;
+}
+@media   only  screen and (max-width: 1200px)
+{
+	.foot{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.lastline1 a{
+	color: #757575;
+	text-decoration: none;
+}
+.lastline1{
+	margin-left: 0px;
+	padding-right: 290px;
+	color: #757575;
+}

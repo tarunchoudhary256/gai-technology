@@ -1,0 +1,172 @@
+
+
+.main-section{
+	border: solid #dadce0 1px;
+	height: 404px;
+	width: 364px;
+	margin: auto;
+	margin-top: 86px;
+	border-radius: 10px;
+	padding: auto;
+	padding-top: 40px;
+}
+img{
+	height: 44px; 
+	width: 70px;
+}
+header{
+
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	margin-right: 50px;
+	
+}
+
+.heading{
+	text-align: center;
+}
+
+.para{
+	text-align: center;
+	margin-top: -10px;
+}
+
+.field1{
+
+margin-left: 10%;
+}
+.field1 input{
+	height: 40px;
+	padding-left: 30px;
+	border: 1px solid #dadce0;
+	width: 80%;
+	border-radius: 4px 4px;
+	border
+}
+
+.field2{
+	margin-left: 10%;
+	font-size: 12px;
+	padding-top: 8px;
+}
+
+.field3{
+	margin-left: 10%;
+	font-size: 12px;
+	margin-top: 30px;
+}
+
+.field4{
+	margin-left: 10%;
+	font-size: 12px;
+}
+
+.field5{
+	margin-left: 10%;
+	margin-top: 30px;
+}
+a{
+	text-decoration: none;
+	color: #1a73e8;
+}
+
+.next{
+	margin-left: 130px;
+	background-color: #1a73e8;
+	height: 35px;
+	width: 66px;
+	border: 1px solid #1a73e8;
+	border-radius: 4px 4px;
+	color: white;
+}
+
+.lastfield1 {
+	list-style: none;
+	display: flex;
+	margin-left: 33% ;
+}
+
+.lastfield2{
+	list-style: none;
+	margin-left: 25px;
+	display: flex;
+	padding-left: 25px;
+}
+
+footer{
+	display: flex;
+}
+.lastline{
+	padding-left: 15px;
+	color: #757575;
+}
+.lastline a{
+	color: #757575;
+}
+
+
+@media only screen and (max-width: 1040px)
+{
+	.lastfield1 {
+	
+	
+	margin-left: 25% ;
+}
+
+
+}
+@media only screen and (max-width: 834px){
+
+	.lastfield1{
+	margin-left: 23% ;
+}
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+.dropdown:hover .dropbtn {
+  background-color: none;
+
+}
+.dropbtn{
+	background-color: white;
+	border: none;
+}
+#message{
+	color: darkred;
+	margin-left: 10%;
+	font-size: 12px;
+}
+.lastfield1 a{
+	    color: #757575;
+}
